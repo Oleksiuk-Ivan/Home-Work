@@ -1,0 +1,95 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #2c2c2c;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    margin-left: 150px;
+    font-weight: 000;
+    color: aqua;
+}
+   table tr td, table tr th {
+    padding-left: 10px;
+    position: relative;
+}
+
+table{   
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 2px #AFAFAF;
+    width: 50%;
+    text-align: left;
+    background-color:#333;
+    margin: 40px;
+     }
+   
+th.wide_column{
+    width: 50%;
+}
+
+th{
+    font-weight: 500;    
+    height: 40px;      
+    padding: 0 15px;
+    width: 25%;
+}    
+
+.search-input{    
+    width: 80%;
+	position: relative;
+}
+
+    .search input {
+	border: none;
+}
+
+    .search .input {
+	width: 50%;
+	padding: 8px 1px 9px 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: #EEE;
+	font: 13px Tahoma, Arial, sans-serif;
+	color: #555;
+	outline: none;
+}
+    .triangle{
+    border: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position: relative;
+    top: 85px;
+    left:140px;
+}
+    .triangle2{
+    border: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position: relative;
+    top: 92px;
+    left:140px;
+}
+ .check::before{
+    background-image: url('img/check.svg');
+    background-size: 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px;
+    content:"";
+}   
+
+.inbox::before{
+    background-image: url('img/inbox.svg');
+    background-size: 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px;
+    content:"";
+}
